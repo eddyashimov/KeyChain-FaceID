@@ -13,6 +13,8 @@
 		FDF01CAB2469E2A100A41C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF01CA92469E2A100A41C17 /* Main.storyboard */; };
 		FDF01CAD2469E2A200A41C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF01CAC2469E2A200A41C17 /* Assets.xcassets */; };
 		FDF01CB02469E2A200A41C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF01CAE2469E2A200A41C17 /* LaunchScreen.storyboard */; };
+		FDF01CB92469EA3C00A41C17 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF01CB72469EA3C00A41C17 /* KeychainItemAccessibility.swift */; };
+		FDF01CBA2469EA3C00A41C17 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF01CB82469EA3C00A41C17 /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FDF01CAC2469E2A200A41C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF01CAF2469E2A200A41C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF01CB12469E2A200A41C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF01CB72469EA3C00A41C17 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		FDF01CB82469EA3C00A41C17 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FDF01CAC2469E2A200A41C17 /* Assets.xcassets */,
 				FDF01CAE2469E2A200A41C17 /* LaunchScreen.storyboard */,
 				FDF01CB12469E2A200A41C17 /* Info.plist */,
+				FDF01CB72469EA3C00A41C17 /* KeychainItemAccessibility.swift */,
+				FDF01CB82469EA3C00A41C17 /* KeychainWrapper.swift */,
 			);
 			path = "Project 28 (Keychain, FaceID, Touch ID)";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF01CA82469E2A100A41C17 /* ViewController.swift in Sources */,
+				FDF01CB92469EA3C00A41C17 /* KeychainItemAccessibility.swift in Sources */,
 				FDF01CA42469E2A100A41C17 /* AppDelegate.swift in Sources */,
 				FDF01CA62469E2A100A41C17 /* SceneDelegate.swift in Sources */,
+				FDF01CBA2469EA3C00A41C17 /* KeychainWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX84G6PTJX;
 				INFOPLIST_FILE = "Project 28 (Keychain, FaceID, Touch ID)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LX84G6PTJX;
 				INFOPLIST_FILE = "Project 28 (Keychain, FaceID, Touch ID)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
